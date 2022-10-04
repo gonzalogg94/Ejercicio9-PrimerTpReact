@@ -19,16 +19,6 @@ const FormularioCitas = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (
-      mascota.trim() === "" ||
-      duenio.trim() === "" ||
-      fecha.trim() === "" ||
-      hora.trim() === "" ||
-      sintomas.trim() === ""
-    ) {
-      alert("Completar todos los datos");
-      return;
-    } else {
       let objetoCita = { mascota, duenio, fecha, hora, sintomas };
       setArregloCitas([...arregloCitas, objetoCita]);
       setMascota("");
@@ -37,7 +27,6 @@ const FormularioCitas = () => {
       setHora("");
       setSintomas("");
     }
-  };
 
   const borrarCita = (cita) => {
     let arregloModif = arregloCitas.filter((item) => item !== cita);
