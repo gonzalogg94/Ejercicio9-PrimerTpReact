@@ -19,7 +19,7 @@
 ## Para probar el proyecto 💻:
 *En una terminal realizar el clonado del repositorio con el siguiente comando*
 
-`git clone https://github.com/gonzalogg94/Ejercicio6-primer-tp-React.git` 
+`git clone https://github.com/gonzalogg94/Ejercicio9-PrimerTpReact.git` 
 
 *En una terminal realizar el comando npm install y posterior a la instalacion realizar el comando npm start*
 
