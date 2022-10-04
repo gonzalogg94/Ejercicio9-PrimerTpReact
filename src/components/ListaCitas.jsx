@@ -1,6 +1,6 @@
 import ItemCita from "./ItemCita";
 
-const ListaCitas = ({ arregloCitas, borrarCita}) => {
+const ListaCitas = ({ arregloCitas, borrarCita }) => {
   return (
     <div className="row">
       {arregloCitas.map((cita, posicion) => (
